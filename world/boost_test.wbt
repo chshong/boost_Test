@@ -1,0 +1,18 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.08313882268815745 0.9795333010258879 -0.18330970608059644 2.305451369632826
+  position 6.9207585892989965 -3.607269755094354 -6.136936733587088
+}
+Background {
+  skyColor [
+    0.15 0.45 1
+  ]
+}
+DirectionalLight {
+  direction 0 -1 0
+}
+Robot {
+  controller "soccer_robot"
+}
