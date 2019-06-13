@@ -4,7 +4,7 @@
 # See documentation in $(WEBOTS_HOME_PATH)/resources/Makefile.include
 
 # Should be CXXFLAGS, but webots uses CFLAGS for both of C and C++
-CFLAGS = -Wall -Wextra -std=c++14 -pedantic -O2
+CFLAGS = -Wall -Wextra -std=c++14 -pedantic -O2 -D__USE_W32_SOCKETS -D_WIN32_WINNT=0x501 -DWIN32
 LFLAGS = 
 
 # Do not modify the following: this includes Webots global Makefile.include
